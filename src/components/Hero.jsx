@@ -8,7 +8,7 @@ const Hero = () => (
         className="md:h-[75vh] flex md:flex-row flex-col items-center justify-center md:py-[5rem] py-[2rem]">
         {/* HeroInfo */}
         <div className="flex flex-1 flex-col">
-            <h1 className="font-inter font-bold text-hero md:text-[55px] text-[32px] md:mb-[5rem] mb-[2rem]">
+            <h1 className="font-inter font-bold text-hero sm:text-[55px] text-[32px] md:mb-[5rem] mb-[2rem]">
                 The first super <br className="md:block hidden" /> application
                 is <br className="md:block hidden" /> integrated{" "}
                 <br className="md:block hidden" />
