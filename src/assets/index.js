@@ -1,6 +1,8 @@
 import logo from "../assets/logo.png";
 import us_flag from "../assets/us_flag.png";
 import arrow_down from "../assets/arrow_down.png";
+import hero_union1 from "../assets/hero_union1.png";
+import hero_union2 from "../assets/hero_union2.png";
 import googleplay from "../assets/googleplay.png";
 import applestore from "../assets/applestore.png";
 import features from "../assets/features.png";
@@ -39,8 +41,9 @@ import dot_box from "../assets/dot_box.png";
 import thumbnail from "../assets/thumbnail.png";
 import play from "../assets/play.png";
 import phone from "../assets/phone.png";
-import menu from "../assets/menu.svg";
-import close from "../assets/close.svg";
+import excited_young_girl from "../assets/excited_young_girl.png";
+import magic_star from "../assets/magic_star.png";
+import sunglasses_man from "../assets/sunglasses_man.png";
 
 export {
     googleplay,
@@ -84,6 +87,9 @@ export {
     thumbnail,
     play,
     phone,
-    menu,
-    close,
+    excited_young_girl,
+    hero_union1,
+    hero_union2,
+    magic_star,
+    sunglasses_man,
 };

@@ -1,4 +1,4 @@
-import { logo, us_flag, arrow_down, menu } from "../assets";
+import { logo, us_flag, arrow_down } from "../assets";
 import Button from "./Button";
 import { navLinks } from "../constants";
 import { useState } from "react";
@@ -62,7 +62,7 @@ const Navbar = () => {
                     active ? "top-0" : "top-[-200%]"
                 } left-0 bg-white z-[100]`}>
                 {/* NavLinks */}
-                <ul className="flex flex-col sm:hidden items-start gap-[2rem] ">
+                <ul className="flex flex-col items-start gap-[2rem] ">
                     {navLinks.map((link) => (
                         <li
                             className="font-manrope font-medium text-[16px]"

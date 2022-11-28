@@ -27,13 +27,13 @@ const Features = () => (
         </div>
 
         {/* FeaturesInfo */}
-        <div className="flex flex-col flex-1">
+        <div className="flex flex-col flex-1 items-center md:items-start">
             {/* Title */}
             <h2 className="text-[#101130] font-manrope font-semibold md:text-[40px]  text-[32px] md:leading-[45px] leading-[23px]">
                 Features of Me
             </h2>
             {/* Features */}
-            <div className="flex flex-wrap gap-10 md:mt-[5rem] mt-[3rem]">
+            <div className="flex flex-wrap gap-10 md:mt-[5rem] mt-[3rem] justify-center">
                 {featuresList.map((feature) => (
                     <Feature key={feature.id} {...feature} />
                 ))}
