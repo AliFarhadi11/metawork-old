@@ -9,6 +9,7 @@ import ServiceCategories from "./ServiceCategories";
 import VideoAbout from "./VideoAbout";
 import Services from "./Services";
 import BorderButton from "./BorderButton";
+import Became from "./Became";
 
 export {
     Navbar,
@@ -22,4 +23,5 @@ export {
     VideoAbout,
     Services,
     BorderButton,
+    Became,
 };
