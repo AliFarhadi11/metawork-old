@@ -2,9 +2,16 @@ import { logo, us_flag, arrow_down } from "../assets";
 import Button from "./Button";
 import { navLinks } from "../constants";
 import { useState } from "react";
+import sr from "./ScrollReveal";
 
 const Navbar = () => {
     const [active, setActive] = useState(false);
+
+    //ScrollAnimationConfig
+    sr.reveal('.header', {
+        origin: "top",
+        distance: "60px"
+    })
     return (
         <nav className="flex justify-center items-center">
             <div className="flex flex-row flex-1 gap-[2.25rem]">

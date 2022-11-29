@@ -1,7 +1,7 @@
 import { hand_shake, dot_box } from "../assets";
 
 const Became = () => (
-    <section className="bg-[#F3F7FA] flex items-center md:flex-row flex-col-reverse md:h-[400px] h-atuo rounded-[30px] relative md:my-[5rem] my-[2rem] md:pt-0 pt-[2rem] z-10 md:overflow-visible overflow-hidden gap-7">
+    <section className="left-r bg-[#F3F7FA] flex items-center md:flex-row flex-col-reverse md:h-[400px] h-atuo rounded-[30px] relative md:my-[5rem] my-[2rem] md:pt-0 pt-[2rem] z-10 md:overflow-visible overflow-hidden gap-7">
         {/* HandShakeManImg */}
         <div className="flex-1">
             <img

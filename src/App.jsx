@@ -11,6 +11,7 @@ import {
     Footer,
 } from "./components";
 import Became from "./components/Became";
+import SrConfings from "./components/SrConfings";
 
 const App = () => (
     <>

@@ -35,7 +35,7 @@ const Hero = () => {
             id="home"
             className="md:h-[75vh] flex sm:flex-row flex-col items-center justify-center md:py-[5rem] py-[2rem]">
             {/* HeroInfo */}
-            <div className="flex flex-1 flex-col sm:items-start items-center">
+            <div className="left-r flex flex-1 flex-col sm:items-start items-center">
                 <h1 className="font-inter font-bold text-hero sm:text-[55px] text-[50px] sm:text-left text-center md:mb-[5rem] mb-[2rem]">
                     The first super <br className="md:block hidden" />{" "}
                     application is <br className="md:block hidden" /> integrated{" "}
@@ -49,7 +49,7 @@ const Hero = () => {
                 />
             </div>
             {/* HeroImage */}
-            <div className="flex-1 relative h-auto flex items-center justify-center sm:w-[70%]  sm:mt-0 mt-[5rem]">
+            <div className="right-r flex-1 relative h-auto flex items-center justify-center sm:w-[70%]  sm:mt-0 mt-[5rem]">
                 {/* Circles */}
                 <div className="hero-circle sm:w-[317px] sm:h-[317px] absolute top-0 left-[15%] bg-[#5D5FEF] opacity-[0.39] rounded-full -z-10"></div>
                 <div className="hero-circle sm:w-[305px] sm:h-[305px] absolute bottom-[5%] right-0 bg-[#EAAFC8A6] opacity-[0.65] rounded-full -z-10"></div>

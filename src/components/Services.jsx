@@ -4,7 +4,7 @@ import metawork_union from "../assets/metawork_union.png";
 
 //Single Service
 const Service = ({ img, title, text }) => (
-    <div className="bg-[#FBFBFB] rounded-[16px] p-6 service-card h-[365px] flex flex-col justify-start">
+    <div className="right-r bg-[#FBFBFB] rounded-[16px] p-6 service-card h-[365px] flex flex-col justify-start">
         {/* Image */}
         <img src={img} alt={title} className="object w-[164px] h-[102px]" />
 
@@ -25,7 +25,7 @@ const Services = () => (
         id="services"
         className="md:py-[5rem] py-[2rem] flex flex-col items-center">
         {/* Title */}
-        <h2 className="text-dark font-manrope md:text-[40px] text-[32px] font-semibold md:mb-[4rem] mb-5 text-center">
+        <h2 className="left-rtext-dark font-manrope md:text-[40px] text-[32px] font-semibold md:mb-[4rem] mb-5 text-center">
             Metawork for service providers
         </h2>
         {/* ServicesList */}
@@ -36,7 +36,7 @@ const Services = () => (
         </div>
 
         {/* Button */}
-        <BorderButton style={"mt-6"} />
+        <BorderButton style={"mt-6 right-r"} />
 
         {/* UnionPattern */}
         <img

@@ -4,7 +4,7 @@ import { featuresList } from "../constants";
 
 //Single Feature
 const Feature = ({ icon, title, text }) => (
-    <div className="flex flex-col gap-3 w-[256px]">
+    <div className="right-r flex flex-col gap-3 w-[256px]">
         <div className="w-[70px] h-[70px] rounded-[16px] bg-[#F3F7FA] flex items-center justify-center">
             <img src={icon} alt={title} className="object-contain" />
         </div>
@@ -22,14 +22,14 @@ const Features = () => (
         id="about"
         className="flex md:flex-row flex-col items-center md:py-[5rem] py-[2rem]">
         {/* Image */}
-        <div className="flex-1">
+        <div className="flex-1 left-r">
             <img src={features2} alt="features" className="object-contain" />
         </div>
 
         {/* FeaturesInfo */}
         <div className="flex flex-col flex-1 items-center md:items-start">
             {/* Title */}
-            <h2 className="text-[#101130] font-manrope font-semibold md:text-[40px]  text-[32px] md:leading-[45px] leading-[23px]">
+            <h2 className="top-r text-[#101130] font-manrope font-semibold md:text-[40px]  text-[32px] md:leading-[45px] leading-[23px]">
                 Features of Me
             </h2>
             {/* Features */}

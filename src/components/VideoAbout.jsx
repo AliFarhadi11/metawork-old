@@ -6,7 +6,7 @@ const VideoAbout = () => (
         id="about"
         className="flex md:flex-row flex-col items-center md:py-[5rem] py-[2rem] gap-10">
         {/* AboutInfo */}
-        <div className="flex flex-col items-start flex-1">
+        <div className="flex flex-col items-start flex-1 left-r">
             <h4 className="text-primary uppercase font-manrope font-extrabold text-[18px]">
                 Our features
             </h4>
@@ -23,7 +23,7 @@ const VideoAbout = () => (
             </p>
         </div>
         {/* Iframe */}
-        <div className="relative">
+        <div className="relative right-r">
             {/* Thumbnail */}
             <img
                 src={thumbnail}
