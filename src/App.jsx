@@ -13,13 +13,13 @@ import {
     Became,
 } from "./components";
 
-import SrConfings from "./components/SrConfings";
+// import SrConfings from "./components/SrConfings";
 
 const App = () => {
     return (
         <>
-        {/* ScrollReveal */}
-        <SrConfings />
+            {/* ScrollReveal */}
+            {/* <SrConfings /> */}
             {/* Header */}
             <header className="py-4">
                 {/* BoxWidth */}
